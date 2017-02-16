@@ -1,0 +1,21 @@
+.user-box__bottom {
+
+}
+
+.user-data {
+  margin: 0;
+
+
+  > * + * {
+    border-top: 1px solid #d1cdce;
+  }
+}
+
+.icon {
+
+}
+
+
+.user-data__item {
+  padding: 1rem;
+}
