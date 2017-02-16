@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>11-user-info</title>
   <link rel="stylesheet" href="/app.css">
 </head>
+
 <body>
   <main class="section">
     <div class="container">
-      <div class="user">   <!--not sure if this is one too many levels -->
+      <div class="user">
+        <!--not sure if this is one too many levels -->
         <div class="user-box">
           <div class="user-box__top">
-            <p class="back">Arrow</p>
-            <p class="image-box"><img src="#" alt="" class="user-image"></p>   <!--not sure best way to center pic without centering arrow -->
+            <p class="back"><i class="fa fa-arrow-left" aria-hidden="true"></i></p>
+            <p class="image-box"><img src="#" alt="" class="user-image"></p>
+            <!--not sure best way to center pic without centering arrow -->
           </div>
           <div class="user-box__bottom">
             <ul class="user-data">
-              <li class="user-data__item"><span class="icon name">#</span>Lorem ipsum dolor sit amet.</li>
-              <li class="user-data__item"><span class="icon email">#</span>Lorem ipsum dolor sit amet.</li>
-              <li class="user-data__item"><span class="icon phone">#</span>Lorem ipsum dolor sit amet.</li>
-              <li class="user-data__item"><span class="icon location">#</span>Lorem ipsum dolor sit amet.</li>
+              <li class="user-data__item">
+                <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                <span class="name">Lorem ipsum dolor sit amet.</span>
+              </li>
+              <li class="user-data__item">
+                <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <span class="email">Lorem ipsum dolor sit amet.</span>
+              </li>
+              <li class="user-data__item">
+                <span class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                <span class="phone">Lorem ipsum dolor sit amet.</span>
+              </li>
+              <li class="user-data__item">
+                <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                <span class="location">Lorem ipsum dolor sit amet.</span>
+              </li>
             </ul>
           </div>
         </div>
@@ -28,4 +44,5 @@
   </main>
   <script src="/app.js" charset="utf-8"></script>
 </body>
+
 </html>
