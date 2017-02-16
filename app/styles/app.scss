@@ -10,26 +10,3 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-bottom';
 
 $c-user: #9bd57d;
-
-
-.user-box__bottom {
-
-}
-
-.user-data {
-  margin: 0;
-
-
-  > * + * {
-    border-top: 1px solid #d1cdce;
-  }
-}
-
-.icon {
-
-}
-
-
-.user-data__item {
-  padding: 1rem;
-}
