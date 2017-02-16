@@ -1,0 +1,37 @@
+$c-user: #9bd57d;
+
+.user {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.user-box {
+  width: 25rem;  //not sure about this
+  padding: 1rem;
+}
+
+
+.user-box__top {
+  padding: 1rem;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  background-color: $c-user;
+}
+
+.back {
+  margin: 0;
+
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.user-image {
+
+
+}
